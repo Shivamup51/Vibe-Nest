@@ -35,6 +35,6 @@ app.use("/api/v1/search", protectRoute, searchRoutes);
 
 
 app.listen(PORT, () => {
-	console.log("Server started at http://localhost:" + PORT);
+	console.log("Server started at https://vibe-nest.onrender.com/:" + PORT);
 	connectDB();
 });
