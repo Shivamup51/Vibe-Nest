@@ -7,7 +7,7 @@ export default defineConfig({
 	server: {
 		proxy: {
 			"/api": {
-				target: "https://vibe-nest.onrender.com/",
+				target: "http://localhost:5000",
 			},
 		},
 	},
